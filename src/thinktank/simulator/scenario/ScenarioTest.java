@@ -289,34 +289,6 @@ public class ScenarioTest {
 	 * @generatedBy CodePro at 12/4/16 12:54 PM
 	 */
 	@Test
-	public void testDeselectEntity_2()
-		throws Exception {
-		Scenario fixture = ScenarioFactory.createScenario();
-		Entity entity = EntityFactory.createcreatePlayer();
-
-		fixture.deselectEntity(entity);
-
-		// add additional test code here
-		// An unexpected exception was thrown in user code while executing this test:
-		//    java.lang.NullPointerException
-		//       at thinktank.simulator.environment.Tank.<init>(Tank.java:165)
-		//       at thinktank.simulator.environment.Tank.createTank(Tank.java:428)
-		//       at thinktank.simulator.environment.Environment.<init>(Environment.java:113)
-		//       at thinktank.simulator.scenario.Scenario.setupEnvironment(Scenario.java:395)
-		//       at thinktank.simulator.scenario.Scenario.init(Scenario.java:388)
-		//       at thinktank.simulator.scenario.Scenario.<init>(Scenario.java:105)
-		//       at thinktank.simulator.scenario.Scenario.createScenario(Scenario.java:481)
-		//       at thinktank.simulator.scenario.ScenarioFactory.createScenario(ScenarioFactory.java:31)
-	}
-
-	/**
-	 * Run the void deselectEntity(Entity) method test.
-	 *
-	 * @throws Exception
-	 *
-	 * @generatedBy CodePro at 12/4/16 12:54 PM
-	 */
-	@Test
 	public void testDeselectEntity_3()
 		throws Exception {
 		Scenario fixture = ScenarioFactory.createScenario2();

@@ -5,8 +5,6 @@ import static org.junit.Assert.*;
 import com.jme3.app.Application;
 import com.jme3.app.state.AppStateManager;
 import com.jme3.scene.Node;
-import thinktank.simulator.entity.PlayerFactory;
-import thinktank.simulator.entity.Player;
 
 /**
  * The class <code>RootNodeControllerTest</code> contains tests for the class <code>{@link RootNodeController}</code>.
@@ -47,9 +45,9 @@ public class RootNodeControllerTest {
 	public void testRootNodeController_2()
 		throws Exception {
 		Application app = MainFactory.createMain();
-		Player player = PlayerFactory.createPlayer();
 
-		RootNodeController result = new RootNodeController(app, player);
+
+		RootNodeController result = new RootNodeController(app);
 
 		// add additional test code here
 		// An unexpected exception was thrown in user code while executing this test:

@@ -1,6 +1,5 @@
 package thinktank.simulator.main;
 
-import thinktank.simulator.entity.PlayerFactory;
 import com.jme3.app.Application;
 import thinktank.simulator.entity.Player;
 
@@ -39,7 +38,7 @@ public class RootNodeControllerFactory
 	 * @generatedBy CodePro at 12/4/16 12:53 PM
 	 */
 	public static RootNodeController createRootNodeController2() {
-		return new RootNodeController(new Application(), PlayerFactory.createPlayer());
+		return new RootNodeController(new Application());
 	}
 
 
